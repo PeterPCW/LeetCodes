@@ -5,10 +5,8 @@ public:
         if (strs.empty()) {
             return "";
         }
-
         // Initialize the longest common prefix to be the first string in the input vector
         string lcp = strs[0];
-
         // Loop over the remaining strings in the input vector, updating the longest common prefix
         for (int i = 1; i < strs.size(); i++) {
             // Check if the current string starts with the current longest common prefix
@@ -16,13 +14,11 @@ public:
                 // If not, remove the last character from the longest common prefix and try again
                 lcp = lcp.substr(0, lcp.length() - 1);
             }
-
             // If we've reduced the longest common prefix to an empty string, there is no common prefix, so return ""
             if (lcp.empty()) {
                 return "";
             }
         }
-
         // If we've looped over all the strings and not returned an empty string, we have the longest common prefix
         return lcp;
     }

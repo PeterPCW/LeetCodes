@@ -30,10 +30,7 @@ class Solution {
 /*
 Explanation:
 The romanToInt function takes a string argument s which represents a roman numeral and returns its equivalent integer value.
-
 The function uses an unordered map romanToIntMap to map each roman numeral character to its corresponding integer value. The function initializes a result variable to store the final integer value and a previous variable to store the previous integer value.
-
 The function then iterates through each character in the string s and gets its corresponding integer value from the romanToIntMap. If the current value is greater than the previous value, it subtracts twice the previous value from the current value and adds it to the result. Otherwise, it adds the current value to the result. The previous value is then set to the current value for the next iteration.
-
 Finally, the function returns the final integer value.
 */

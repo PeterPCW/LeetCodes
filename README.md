@@ -1,7 +1,23 @@
-This is a store of LeetCode solutions I've created while self-studying through various coding languages.
+# Overview
 
-I'm starting in the Easy difficulty (plus the daily challenges) and hoping to work through a few each day. Focusing on syntax practice and //documentation with as much speed and memory optimization as I can muster.
+This is a store of LeetCode solutions I've created while self-studying through various coding languages. Focusing on syntax practice and //documentation with as much speed and memory optimization (when applicable) as I can muster.
 
-Starting with C++ and seeing where it goes from there!
+I completed 35 examples across the first 9 days as I reaquainted myself with the syntax and basics of C++.
+
+But I saw some flaws in my approach, which I've tried to detail below.
+
+From here I'm starting in another direction, aiming for language and problem variety instead of quantity of problems solved.
+
+# Lessons Learned
+* Pace isn't as important as variety
+  * Starting with Easy problems led them to quickly become repeditive
+  * The daily promotoed challenges were the best part since they brought more nuance
+  * Need to experiment with other ways to find differentiated problems
+* Language choice should be fluid, and bias toward newer languages
+  * C++ was too easy since I knew the basics already
+  * Better options: Java, Ruby, Go, Swift
+    * Would be ideal to determine the best language for the problem and add another vector of variety
+  * May still integrate Python, Typescript, and/or C++ as "upkeep" solves
+     * Perhaps as a thinking exercise for tougher problems before trying to rework into a new language
 
 https://leetcode.com/problemset/all/
